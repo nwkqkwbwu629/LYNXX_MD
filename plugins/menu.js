@@ -2,6 +2,8 @@ const events = require("../lib/event");
 const { command, isPrivate, tiny, serif_B, clockString } = require("../lib");
 const { OWNER_NAME, BOT_NAME } = require("../config");
 const { hostname, uptime } = require("os");
+const more = String.fromCharCode(8206);
+const readMore = more.repeat(4001);
 command(
   {
     pattern: "menu",
@@ -26,13 +28,12 @@ Description : ${i.desc}\`\`\``
       let menu = `╭━━━━━ᆫ ${BOT_NAME} ᄀ━━━
 ┃ ⎆  *OWNER* :  ${OWNER_NAME}
 ┃ ⎆  *PREFIX* : ${prefix}
-┃ ⎆  *HOST NAME* :${hostname().split("-")[0]}
 ┃ ⎆  *DATE* : ${date}
 ┃ ⎆  *TIME* : ${time}
 ┃ ⎆  *COMMANDS* : ${events.commands.length} 
 ┃ ⎆  *UPTIME* : ${clockString(uptime())} 
 ╰━━━━━━━━━━━━━━━
-╭╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼\n╽`;
+╭╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼\n╽${readMore}`;
       let cmnd = [];
       let cmd;
       let category = [];
