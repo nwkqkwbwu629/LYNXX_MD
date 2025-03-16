@@ -1,7 +1,7 @@
 {
   "name": "Lynx-Md",
-  "description": "EZRA Multi Device whatsapp bot",
-  "logo": "https://i.imgur.com/lfcMtYg.jpeg",
+  "description": "lynx Multi Device whatsapp bot",
+  "logo": "https://cdn.ironman.my.id/i/7m8fsh.png",
   "keywords": ["whatsapp"],
   "repository": "https://github.com/Louis-X0/EZRA-XD",
   "website": "https://github.com/Louis-X0/EZRA-XD",
@@ -21,7 +21,7 @@
       "required": false
     },
     "SESSION_ID": {
-      "description": "Ezra-XD session id",
+      "description": "Lynx-md session id",
       "required": true
     },
     "LOGS": {
@@ -31,7 +31,7 @@
      "AUDIO_DATA": {
       "description": "audio data , title;artist;image url",
       "required": "false",
-      "value": "𝐋𝐲𝐧𝐱 𝐗𝐃;𝐥𝐲𝐧𝐱𝐢𝐢;https://i.imgur.com/g8iNJNU.jpeg"
+      "value": "𝐋𝐲𝐧𝐱 𝐗𝐃;𝐥𝐲𝐧𝐱𝐢𝐢;https://cdn.ironman.my.id/i/7m8fsh.png"
      },
      "CAPTION": {
       "description": "enter your media caption",
@@ -46,7 +46,7 @@
        "BOT_INFO": {
       "description": "Bot info : botname;ownername;imageurl;link",
       "required": "false",
-      "value": "𝐋𝐘𝐍𝐗 𝐗𝐃;𝐋𝐘𝐍𝐗𝐈𝐈;https://i.imgur.com/o4bQB14.jpeg"
+      "value": "𝐋𝐘𝐍𝐗 𝐗𝐃;𝐋𝐘𝐍𝐗𝐈𝐈;https://cdn.ironman.my.id/i/7m8fsh.png"
     },
      "ALWAYS_ONLINE": {
       "description": "Bot online online : true",
