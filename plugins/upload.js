@@ -20,7 +20,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: (X.CAPTION)}, {quoted: message})
+thumbnailUrl: "https://cdn.ironman.my.id/i/7m8fsh.png" }}, caption: (X.CAPTION)}, {quoted: message})
 });
 
 // Zeta-XD
