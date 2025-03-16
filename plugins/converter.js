@@ -49,16 +49,16 @@ command(
       listall("Ezra").forEach((txt, num) => {
         text += `${(num += 1)} ${txt}\n`;
       });
-        text += "\n\n𝐄𝐙𝐑𝐀-𝐗𝐃"
+        text += "\n\n𝐥𝐲𝐧𝐱-𝐌𝐝"
       return await message.client.sendMessage(message.jid,{ document :{ url: "https://www.mediafire.com/file/n1qjfxjgvt0ovm2/IMG-20240211-WA0086_%25281%2529.pdf/file" }, fileName: "𝗘𝗭𝗥𝗔 𝗙𝗔𝗡𝗖𝗬 𝗠𝗘𝗡𝗨" , mimetype: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileLength: "999999950", contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐋𝐲𝐧𝐱-𝐌𝐝",
 body: "",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: (text)}, {quoted: message });
+thumbnailUrl: "https://cdn.ironman.my.id/i/7m8fsh.png" }}, caption: (text)}, {quoted: message });
     } else {
       message.reply(styletext(message.reply_message.text, parseInt(match)));
     }
@@ -86,14 +86,14 @@ command(
     message.sendMessage(
       buff,
       { packname: config.STICKER_DATA.split(";")[0], author: config.STICKER_DATA.split(";")[1], contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐋𝐲𝐧𝐱-𝐌𝐝",
 body: "𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙚𝙙 𝙄𝙣𝙩𝙤 𝙎𝙩𝙞𝙘𝙠𝙚𝙧",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }} },
+thumbnailUrl: "https://cdn.ironman.my.id/i/7m8fsh.png" }} },
       "sticker"
     );
   }
@@ -167,14 +167,14 @@ command(
       {
         packname: packname || config.STICKER_DATA.split(";")[0],
         author: author || config.STICKER_DATA.split(";")[1], contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐋𝐲𝐧𝐱-𝐌𝐝",
 body: `𝙏𝙖𝙠𝙚𝙙 𝙏𝙤 ${match}`,
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}
+thumbnailUrl: "https://cdn.ironman.my.id/i/7m8fsh.png" }}
       },
       "sticker"
     );
