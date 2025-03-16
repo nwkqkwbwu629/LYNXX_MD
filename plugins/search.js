@@ -83,7 +83,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: (resText4)},{quoted:message})
+thumbnailUrl: "https://cdn.ironman.my.id/i/7m8fsh.png" }}, caption: (resText4)},{quoted:message})
     }
     );
 
@@ -108,6 +108,6 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: `\n*INSTAGRAM DETAILS*\n\n> *USERNAME* : ${username}\n> *NAME* : ${name}\n> *BIO* : ${description}\n> *POSTS* : ${posts}\n> *FOLLOWERS* : ${followers}\n> *FOLLOWING* : ${following}\n\n𝐄𝐙𝐑𝐀-𝐗𝐃`}, {quoted: message });
+thumbnailUrl: "https://cdn.ironman.my.id/i/7m8fsh.png" }}, caption: `\n*INSTAGRAM DETAILS*\n\n> *USERNAME* : ${username}\n> *NAME* : ${name}\n> *BIO* : ${description}\n> *POSTS* : ${posts}\n> *FOLLOWERS* : ${followers}\n> *FOLLOWING* : ${following}\n\n𝐄𝐙𝐑𝐀-𝐗𝐃`}, {quoted: message });
     }
     );
