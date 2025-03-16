@@ -1,5 +1,5 @@
-# ~SEXY-MD~
+# ~LYNXII-MD~
 
 BY----
-***GAY BOT RIZWAN***
+***LYNX MD BOT***
 
