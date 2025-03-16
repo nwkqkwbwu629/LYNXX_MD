@@ -22,7 +22,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }} },
+thumbnailUrl: "https://cdn.ironman.my.id/i/7m8fsh.png" }} },
       "sticker"
     );
     } catch (error) {
