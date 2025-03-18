@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: X-HUB-BOT
+    repo: https://github.com/MAD-MAX77/Devux-MD.git
+    branch: main
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free
+    autoDeploy: true
