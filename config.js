@@ -12,7 +12,7 @@ module.exports = {
   ANTILINK: toBool(process.env.ANTI_LINK) || false,
   LOGS: toBool(process.env.LOGS) || true,
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
-  SESSION_ID:process.env.SESSION_ID || "Ezra-XD--BA!TL^-x@94-fNtr6hj*",
+  SESSION_ID:process.env.SESSION_ID || "Lynx-amacefikic",
   LANG: process.env.LANG || "EN",
   HANDLERS: process.env.PREFIX || '^[.]',
   RMBG_KEY: process.env.RMBG_KEY || false,
