@@ -20,7 +20,8 @@ const store = makeInMemoryStore({
 });
 
 require("events").EventEmitter.defaultMaxListeners = 500;
-      
+require("./port");
+
 fs.readdirSync("./lib/database/").forEach((plugin) => {
   if (path.extname(plugin).toLowerCase() == ".js") {
     require("./lib/database/" + plugin);
