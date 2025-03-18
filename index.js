@@ -28,6 +28,7 @@ fs.readdirSync("./lib/database/").forEach((plugin) => {
 });
 
 async function Abhiy() {
+  await MakeSession(config.SESSION_ID, "./session");
   console.log("Syncing Database");
   await config.DATABASE.sync();
 
