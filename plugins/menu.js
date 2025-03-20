@@ -119,4 +119,4 @@ command(
     menu += `╰──────────────────────────`;
     return await message.reply(menu);
   }
-);*?
+);*/
