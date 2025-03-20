@@ -124,24 +124,24 @@ if (!message.reply_message || (!message.reply_message.video && !message.reply_me
 let res = await m.quoted.download();
       if(message.reply_message.video){
        await message.client.sendMessage(message.jid, { video :res ,  mimetype:"video/mp4", contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐋𝐲𝐧𝐱-𝐌𝐝",
 body: "𝘾𝙖𝙥𝙩𝙞𝙤𝙣 𝘾𝙝𝙖𝙣𝙜𝙚𝙙",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: (match)}, {quoted: message })
+thumbnailUrl: "https://cdn.ironman.my.id/i/7m8fsh.png" }}, caption: (match)}, {quoted: message })
       } else if(message.reply_message.image){
       await message.client.sendMessage(message.jid, { image :res ,  mimetype:"image/jpeg", contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐋𝐲𝐧𝐱-𝐌𝐝",
 body: "𝘾𝙖𝙥𝙩𝙞𝙤𝙣 𝘾𝙝𝙖𝙣𝙜𝙚𝙙",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: (match)}, {quoted: message })
+thumbnailUrl: "https://cdn.ironman.my.id/i/7m8fsh.png" }}, caption: (match)}, {quoted: message })
 }
   }
   );
@@ -168,14 +168,14 @@ command(
       return await message.reply("*_Not a sticker_*");
     let buff = await m.quoted.download();
     return await message.sendMessage(buff,{mimetype: 'image/jpeg', contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐋𝐲𝐧𝐱-𝐌𝐝",
 body: "𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙚𝙙 𝙏𝙤 𝙋𝙝𝙤𝙩𝙤",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: (config.CAPTION), quoted: message }, "image")
+thumbnailUrl: "https://cdn.ironman.my.id/i/7m8fsh.png" }}, caption: (config.CAPTION), quoted: message }, "image")
   }
 );
 
@@ -200,14 +200,14 @@ command(
     let buff = await m.quoted.download();
     let buffer = await webp2mp4(buff);
     return await message.sendMessage(buffer,{mimetype: 'video/mp4', contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐋𝐲𝐧𝐱-𝐌𝐝",
 body: "𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙚𝙙 𝙏𝙤 𝙈𝙥𝟰",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: (config.CAPTION), quoted: message }, "video")
+thumbnailUrl: "https://cdn.ironman.my.id/i/7m8fsh.png" }}, caption: (config.CAPTION), quoted: message }, "video")
   }
 );
 
@@ -230,14 +230,14 @@ command(
     let buff = await m.quoted.download();
     buff = await toAudio(buff, "mp3");
      await message.sendMessage(buff,{mimetype: 'audio/mpeg', contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐋𝐲𝐧𝐱-𝐌𝐝",
 body: "𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙚𝙙 𝙏𝙤 𝙈𝙥𝟯",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, quoted: message }, "audio");
+thumbnailUrl: "https://cdn.ironman.my.id/i/7m8fsh.png" }}, quoted: message }, "audio");
   }
 );
 
@@ -255,25 +255,25 @@ command(
       let buff = await m.quoted.download();
    let buffer = await webp2mp4(buff);
    await message.client.sendMessage(message.jid, { video: { url : buffer }, gifPlayback: true, contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐋𝐲𝐧𝐱-𝐌𝐝",
 body: "𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙚𝙙 𝙏𝙤 𝙂𝙞𝙛",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: (config.CAPTION)},{ quoted: message });
+thumbnailUrl: "https://cdn.ironman.my.id/i/7m8fsh.png" }}, caption: (config.CAPTION)},{ quoted: message });
    } else if(message.reply_message.video){
     let buff = await m.quoted.download();
    await message.client.sendMessage(message.jid, { video: buff, gifPlayback: true, contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐋𝐲𝐧𝐱-𝐌𝐝",
 body: "𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙚𝙙 𝙏𝙤 𝙂𝙞𝙛",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: (config.CAPTION)},{ quoted: message });
+thumbnailUrl: "https://cdn.ironman.my.id/i/7m8fsh.png" }}, caption: (config.CAPTION)},{ quoted: message });
   }
   }
 );
